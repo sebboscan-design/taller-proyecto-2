@@ -11,7 +11,7 @@ Es el mismo taller del Proyecto 1 pero ahora los datos no se pierden al cerrar e
 ## Integrantes
 
 - Sebastián Boscán - C.I. 32.741.341
-- Camila Velásquez - C.I. (cédula)
+- Camila Velásquez - C.I. 33.319.134
 
 ## Cómo está organizado
 
