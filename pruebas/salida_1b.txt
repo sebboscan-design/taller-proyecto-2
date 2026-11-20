@@ -1,0 +1,117 @@
+
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): 
+--- MENU VEHICULOS ---
+1. Registrar vehiculo
+2. Buscar vehiculo
+3. Actualizar vehiculo
+4. Eliminar vehiculo
+5. Listar vehiculos
+0. Volver
+Seleccione una opcion (0-5): 
+ID   PLACA     MARCA         MODELO        ANIO  KM        PROPIETARIO
+------------------------------------------------------------------------------
+1    AB123CD   Toyota        Corolla       2015  45000     Maria Gonzalez
+2    XY987ZW   Chevrolet     Aveo          2009  128300    Maria Gonzalez
+3    JK456LM   Ford          Fiesta        2018  30000     Carlos Ramirez
+Total de vehiculos: 3
+
+--- MENU VEHICULOS ---
+1. Registrar vehiculo
+2. Buscar vehiculo
+3. Actualizar vehiculo
+4. Eliminar vehiculo
+5. Listar vehiculos
+0. Volver
+Seleccione una opcion (0-5): 
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): 
+--- MENU MECANICOS ---
+1. Registrar mecanico
+2. Buscar mecanico por ID
+3. Listar mecanicos
+4. Dar de baja mecanico
+0. Volver
+Seleccione una opcion (0-4): 
+ID   NOMBRE                  CEDULA        ESPECIALIDAD  ESTADO    ABIERTAS
+---------------------------------------------------------------------------
+1    Jose Perez              V-9876543     FRENOS        ACTIVO    0
+2    Ana Villalobos          V-18222111    MOTOR         ACTIVO    0
+Total de mecanicos: 2
+
+--- MENU MECANICOS ---
+1. Registrar mecanico
+2. Buscar mecanico por ID
+3. Listar mecanicos
+4. Dar de baja mecanico
+0. Volver
+Seleccione una opcion (0-4): 
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): 
+--- MENU REPUESTOS ---
+1. Registrar repuesto
+2. Buscar repuesto
+3. Entrada de mercancia
+4. Cambiar precio
+5. Eliminar repuesto
+6. Listar repuestos
+0. Volver
+Seleccione una opcion (0-6): 
+--- INVENTARIO DE REPUESTOS ---
+ID 1 | FRN-001 | Pastillas delanteras | Bosch | Precio: 25.00 | Stock: 30 (min 5)
+ID 2 | FRN-014 | Liquido de frenos DOT4 | Valvoline | Precio: 12.50 | Stock: 20 (min 3)
+ID 3 | FIL-100 | Filtro de aceite | Mann | Precio: 8.00 | Stock: 25 (min 3)
+ID 4 | BUJ-200 | Bujia iridium | NGK | Precio: 15.00 | Stock: 40 (min 4)
+Total de repuestos: 4
+
+--- MENU REPUESTOS ---
+1. Registrar repuesto
+2. Buscar repuesto
+3. Entrada de mercancia
+4. Cambiar precio
+5. Eliminar repuesto
+6. Listar repuestos
+0. Volver
+Seleccione una opcion (0-6): 
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): Desea salir del programa? (S/N): Hasta luego.

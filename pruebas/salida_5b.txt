@@ -1,0 +1,62 @@
+
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): 
+--- MENU REPUESTOS ---
+1. Registrar repuesto
+2. Buscar repuesto
+3. Entrada de mercancia
+4. Cambiar precio
+5. Eliminar repuesto
+6. Listar repuestos
+0. Volver
+Seleccione una opcion (0-6): 
+--- INVENTARIO DE REPUESTOS ---
+ID 1 | FRN-001 | Pastillas delanteras | Bosch | Precio: 25.00 | Stock: 29 (min 5)
+ID 2 | FRN-014 | Liquido de frenos DOT4 | Valvoline | Precio: 12.50 | Stock: 19 (min 3)
+ID 3 | FIL-100 | Filtro de aceite | Mann | Precio: 8.00 | Stock: 24 (min 3)
+ID 4 | BUJ-200 | Bujia iridium | NGK | Precio: 15.00 | Stock: 39 (min 4)
+ID 5 | AMO-300 | Amortiguador delantero | Monroe | Precio: 85.00 | Stock: 9 (min 2)
+ID 6 | COR-410 | Correa de tiempo | Gates | Precio: 40.00 | Stock: 11 (min 2)
+ID 7 | BAT-500 | Bateria 12V | Duncan | Precio: 120.00 | Stock: 5 (min 2)
+ID 8 | FIL-110 | Filtro de aire | Mann | Precio: 9.50 | Stock: 19 (min 4)
+ID 9 | FIL-120 | Filtro de gasolina | Bosch | Precio: 11.00 | Stock: 14 (min 3)
+ID 10 | ACE-600 | Aceite 20W50 (litro) | Castrol | Precio: 7.50 | Stock: 56 (min 10)
+ID 11 | REF-700 | Refrigerante | Prestone | Precio: 10.00 | Stock: 17 (min 3)
+ID 12 | BOM-800 | Bomba de agua | Aisin | Precio: 55.00 | Stock: 4 (min 1)
+ID 13 | DIS-900 | Disco de freno | Brembo | Precio: 45.00 | Stock: 7 (min 2)
+ID 14 | TER-950 | Terminal de direccion | Moog | Precio: 22.00 | Stock: 9 (min 2)
+ID 15 | LAM-990 | Bombillo H4 | Philips | Precio: 6.00 | Stock: 29 (min 5)
+ID 16 | ROL-999 | Rodamiento de rueda | SKF | Precio: 30.00 | Stock: 9 (min 2)
+Total de repuestos: 16
+
+--- MENU REPUESTOS ---
+1. Registrar repuesto
+2. Buscar repuesto
+3. Entrada de mercancia
+4. Cambiar precio
+5. Eliminar repuesto
+6. Listar repuestos
+0. Volver
+Seleccione una opcion (0-6): 
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): Desea salir del programa? (S/N): Hasta luego.

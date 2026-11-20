@@ -1,0 +1,48 @@
+
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): 
+--- MANTENIMIENTO ---
+1. Verificar integridad
+2. Crear backup
+0. Volver
+Seleccione una opcion (0-2): 
+ROTO: Orden #3 apunta al vehiculo ID 7 (no existe en vehiculos.bin)
++-------------------------------------------------------+
+|            REPORTE DE INTEGRIDAD DEL SISTEMA          |
++-------------------------------------------------------+
+| Vehiculos verificados : 6                             |
+| Mecanicos verificados : 2                             |
+| Repuestos verificados : 16                            |
+| Ordenes verificadas   : 3                             |
+|                                                       |
+| Problemas encontrados : 1                             |
+| Estado: SE ENCONTRARON PROBLEMAS                      |
++-------------------------------------------------------+
+
+--- MANTENIMIENTO ---
+1. Verificar integridad
+2. Crear backup
+0. Volver
+Seleccione una opcion (0-2): 
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): Desea salir del programa? (S/N): Hasta luego.

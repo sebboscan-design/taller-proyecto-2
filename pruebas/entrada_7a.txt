@@ -1,0 +1,25 @@
+6
+2
+0
+1
+1
+PQ321RS
+Nissan
+Sentra
+2020
+15000
+Jorge Rivas
+V-17888999
+0412-1212121
+s
+0
+4
+1
+PQ321RS
+1
+15000
+Cambio de aceite
+s
+0
+0
+s

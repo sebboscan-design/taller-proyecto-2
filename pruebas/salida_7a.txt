@@ -1,0 +1,102 @@
+
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): 
+--- MANTENIMIENTO ---
+1. Verificar integridad
+2. Crear backup
+0. Volver
+Seleccione una opcion (0-2): Backup creado en la carpeta: backup_2026-11-14_13-45
+
+--- MANTENIMIENTO ---
+1. Verificar integridad
+2. Crear backup
+0. Volver
+Seleccione una opcion (0-2): 
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): 
+--- MENU VEHICULOS ---
+1. Registrar vehiculo
+2. Buscar vehiculo
+3. Actualizar vehiculo
+4. Eliminar vehiculo
+5. Listar vehiculos
+0. Volver
+Seleccione una opcion (0-5): 
+--- REGISTRAR VEHICULO (Escriba CANCELAR para abortar) ---
+Placa: Marca: Modelo: Anio: Kilometraje: Propietario: Cedula del propietario: Telefono del propietario: Desea guardar este vehiculo? (S/N): Vehiculo PQ321RS registrado con ID 7.
+
+--- MENU VEHICULOS ---
+1. Registrar vehiculo
+2. Buscar vehiculo
+3. Actualizar vehiculo
+4. Eliminar vehiculo
+5. Listar vehiculos
+0. Volver
+Seleccione una opcion (0-5): 
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): 
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- ABRIR ORDEN (Escriba CANCELAR para abortar) ---
+Placa del vehiculo: ID del mecanico: Kilometraje de ingreso: Descripcion de la falla: Confirma la apertura de la orden? (S/N): Orden #3 abierta para PQ321RS con Jose Perez.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): Desea salir del programa? (S/N): Hasta luego.

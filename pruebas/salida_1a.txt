@@ -1,0 +1,176 @@
+Primer arranque: ingrese los datos del taller.
+Nombre del taller: RIF: Direccion: Telefono: Taller registrado.
+
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): 
+--- MENU VEHICULOS ---
+1. Registrar vehiculo
+2. Buscar vehiculo
+3. Actualizar vehiculo
+4. Eliminar vehiculo
+5. Listar vehiculos
+0. Volver
+Seleccione una opcion (0-5): 
+--- REGISTRAR VEHICULO (Escriba CANCELAR para abortar) ---
+Placa: Marca: Modelo: Anio: Kilometraje: Propietario: Cedula del propietario: Telefono del propietario: Desea guardar este vehiculo? (S/N): Vehiculo AB123CD registrado con ID 1.
+
+--- MENU VEHICULOS ---
+1. Registrar vehiculo
+2. Buscar vehiculo
+3. Actualizar vehiculo
+4. Eliminar vehiculo
+5. Listar vehiculos
+0. Volver
+Seleccione una opcion (0-5): 
+--- REGISTRAR VEHICULO (Escriba CANCELAR para abortar) ---
+Placa: Marca: Modelo: Anio: Kilometraje: Propietario: Cedula del propietario: Telefono del propietario: Desea guardar este vehiculo? (S/N): Vehiculo XY987ZW registrado con ID 2.
+
+--- MENU VEHICULOS ---
+1. Registrar vehiculo
+2. Buscar vehiculo
+3. Actualizar vehiculo
+4. Eliminar vehiculo
+5. Listar vehiculos
+0. Volver
+Seleccione una opcion (0-5): 
+--- REGISTRAR VEHICULO (Escriba CANCELAR para abortar) ---
+Placa: Marca: Modelo: Anio: Kilometraje: Propietario: Cedula del propietario: Telefono del propietario: Desea guardar este vehiculo? (S/N): Vehiculo JK456LM registrado con ID 3.
+
+--- MENU VEHICULOS ---
+1. Registrar vehiculo
+2. Buscar vehiculo
+3. Actualizar vehiculo
+4. Eliminar vehiculo
+5. Listar vehiculos
+0. Volver
+Seleccione una opcion (0-5): 
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): 
+--- MENU MECANICOS ---
+1. Registrar mecanico
+2. Buscar mecanico por ID
+3. Listar mecanicos
+4. Dar de baja mecanico
+0. Volver
+Seleccione una opcion (0-4): 
+--- REGISTRAR MECANICO (Escriba CANCELAR para abortar) ---
+Nombre: Cedula: Especialidad (MOTOR, FRENOS, ELECTRICIDAD, SUSPENSION, GENERAL): Fecha de ingreso (AAAA-MM-DD): Desea guardar este mecanico? (S/N): Mecanico 'Jose Perez' registrado con ID 1.
+
+--- MENU MECANICOS ---
+1. Registrar mecanico
+2. Buscar mecanico por ID
+3. Listar mecanicos
+4. Dar de baja mecanico
+0. Volver
+Seleccione una opcion (0-4): 
+--- REGISTRAR MECANICO (Escriba CANCELAR para abortar) ---
+Nombre: Cedula: Especialidad (MOTOR, FRENOS, ELECTRICIDAD, SUSPENSION, GENERAL): Fecha de ingreso (AAAA-MM-DD): Desea guardar este mecanico? (S/N): Mecanico 'Ana Villalobos' registrado con ID 2.
+
+--- MENU MECANICOS ---
+1. Registrar mecanico
+2. Buscar mecanico por ID
+3. Listar mecanicos
+4. Dar de baja mecanico
+0. Volver
+Seleccione una opcion (0-4): 
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): 
+--- MENU REPUESTOS ---
+1. Registrar repuesto
+2. Buscar repuesto
+3. Entrada de mercancia
+4. Cambiar precio
+5. Eliminar repuesto
+6. Listar repuestos
+0. Volver
+Seleccione una opcion (0-6): 
+--- REGISTRAR REPUESTO (Escriba CANCELAR para abortar) ---
+Codigo: Nombre: Marca: Precio: Stock: Stock minimo: Desea guardar este repuesto? (S/N): Repuesto 'Pastillas delanteras' (FRN-001) registrado con ID 1.
+
+--- MENU REPUESTOS ---
+1. Registrar repuesto
+2. Buscar repuesto
+3. Entrada de mercancia
+4. Cambiar precio
+5. Eliminar repuesto
+6. Listar repuestos
+0. Volver
+Seleccione una opcion (0-6): 
+--- REGISTRAR REPUESTO (Escriba CANCELAR para abortar) ---
+Codigo: Nombre: Marca: Precio: Stock: Stock minimo: Desea guardar este repuesto? (S/N): Repuesto 'Liquido de frenos DOT4' (FRN-014) registrado con ID 2.
+
+--- MENU REPUESTOS ---
+1. Registrar repuesto
+2. Buscar repuesto
+3. Entrada de mercancia
+4. Cambiar precio
+5. Eliminar repuesto
+6. Listar repuestos
+0. Volver
+Seleccione una opcion (0-6): 
+--- REGISTRAR REPUESTO (Escriba CANCELAR para abortar) ---
+Codigo: Nombre: Marca: Precio: Stock: Stock minimo: Desea guardar este repuesto? (S/N): Repuesto 'Filtro de aceite' (FIL-100) registrado con ID 3.
+
+--- MENU REPUESTOS ---
+1. Registrar repuesto
+2. Buscar repuesto
+3. Entrada de mercancia
+4. Cambiar precio
+5. Eliminar repuesto
+6. Listar repuestos
+0. Volver
+Seleccione una opcion (0-6): 
+--- REGISTRAR REPUESTO (Escriba CANCELAR para abortar) ---
+Codigo: Nombre: Marca: Precio: Stock: Stock minimo: Desea guardar este repuesto? (S/N): Repuesto 'Bujia iridium' (BUJ-200) registrado con ID 4.
+
+--- MENU REPUESTOS ---
+1. Registrar repuesto
+2. Buscar repuesto
+3. Entrada de mercancia
+4. Cambiar precio
+5. Eliminar repuesto
+6. Listar repuestos
+0. Volver
+Seleccione una opcion (0-6): 
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): Desea salir del programa? (S/N): Hasta luego.

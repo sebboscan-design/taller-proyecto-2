@@ -1,0 +1,783 @@
+
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): 
+--- MENU VEHICULOS ---
+1. Registrar vehiculo
+2. Buscar vehiculo
+3. Actualizar vehiculo
+4. Eliminar vehiculo
+5. Listar vehiculos
+0. Volver
+Seleccione una opcion (0-5): 
+--- REGISTRAR VEHICULO (Escriba CANCELAR para abortar) ---
+Placa: Marca: Modelo: Anio: Kilometraje: Propietario: Cedula del propietario: Telefono del propietario: Desea guardar este vehiculo? (S/N): Vehiculo PQ321RS registrado con ID 7.
+
+--- MENU VEHICULOS ---
+1. Registrar vehiculo
+2. Buscar vehiculo
+3. Actualizar vehiculo
+4. Eliminar vehiculo
+5. Listar vehiculos
+0. Volver
+Seleccione una opcion (0-5): 
+--- REGISTRAR VEHICULO (Escriba CANCELAR para abortar) ---
+Placa: Marca: Modelo: Anio: Kilometraje: Propietario: Cedula del propietario: Telefono del propietario: Desea guardar este vehiculo? (S/N): Vehiculo TU654VW registrado con ID 8.
+
+--- MENU VEHICULOS ---
+1. Registrar vehiculo
+2. Buscar vehiculo
+3. Actualizar vehiculo
+4. Eliminar vehiculo
+5. Listar vehiculos
+0. Volver
+Seleccione una opcion (0-5): 
+--- REGISTRAR VEHICULO (Escriba CANCELAR para abortar) ---
+Placa: Marca: Modelo: Anio: Kilometraje: Propietario: Cedula del propietario: Telefono del propietario: Desea guardar este vehiculo? (S/N): Vehiculo WX789YZ registrado con ID 9.
+
+--- MENU VEHICULOS ---
+1. Registrar vehiculo
+2. Buscar vehiculo
+3. Actualizar vehiculo
+4. Eliminar vehiculo
+5. Listar vehiculos
+0. Volver
+Seleccione una opcion (0-5): 
+ID   PLACA     MARCA         MODELO        ANIO  KM        PROPIETARIO
+------------------------------------------------------------------------------
+1    AB123CD   Toyota        Corolla       2015  45000     Maria Gonzalez
+2    XY987ZW   Chevrolet     Aveo          2009  128500    Maria Gonzalez
+4    DF234GH   Hyundai       Accent        2016  60000     Luis Mendoza
+5    GH567JK   Kia           Rio           2019  25000     Pedro Salas
+6    MN890PQ   Renault       Logan         2014  90000     Rosa Paz
+7    PQ321RS   Nissan        Sentra        2020  15000     Jorge Rivas
+8    TU654VW   Mazda         3             2017  70000     Elena Marquez
+9    WX789YZ   Honda         Civic         2016  82000     Andres Soto
+Total de vehiculos: 8
+
+--- MENU VEHICULOS ---
+1. Registrar vehiculo
+2. Buscar vehiculo
+3. Actualizar vehiculo
+4. Eliminar vehiculo
+5. Listar vehiculos
+0. Volver
+Seleccione una opcion (0-5): 
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): 
+--- MANTENIMIENTO ---
+1. Verificar integridad
+2. Crear backup
+0. Volver
+Seleccione una opcion (0-2): 
++-------------------------------------------------------+
+|            REPORTE DE INTEGRIDAD DEL SISTEMA          |
++-------------------------------------------------------+
+| Vehiculos verificados : 9                             |
+| Mecanicos verificados : 2                             |
+| Repuestos verificados : 16                            |
+| Ordenes verificadas   : 3                             |
+|                                                       |
+| Problemas encontrados : 0                             |
+| Estado: SISTEMA INTEGRO                               |
++-------------------------------------------------------+
+
+--- MANTENIMIENTO ---
+1. Verificar integridad
+2. Crear backup
+0. Volver
+Seleccione una opcion (0-2): 
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): 
+--- MENU MECANICOS ---
+1. Registrar mecanico
+2. Buscar mecanico por ID
+3. Listar mecanicos
+4. Dar de baja mecanico
+0. Volver
+Seleccione una opcion (0-4): 
+--- REGISTRAR MECANICO (Escriba CANCELAR para abortar) ---
+Nombre: Cedula: Especialidad (MOTOR, FRENOS, ELECTRICIDAD, SUSPENSION, GENERAL): Fecha de ingreso (AAAA-MM-DD): Desea guardar este mecanico? (S/N): Mecanico 'Luis Fuenmayor' registrado con ID 3.
+
+--- MENU MECANICOS ---
+1. Registrar mecanico
+2. Buscar mecanico por ID
+3. Listar mecanicos
+4. Dar de baja mecanico
+0. Volver
+Seleccione una opcion (0-4): 
+--- REGISTRAR MECANICO (Escriba CANCELAR para abortar) ---
+Nombre: Cedula: Especialidad (MOTOR, FRENOS, ELECTRICIDAD, SUSPENSION, GENERAL): Fecha de ingreso (AAAA-MM-DD): Desea guardar este mecanico? (S/N): Mecanico 'Carla Urdaneta' registrado con ID 4.
+
+--- MENU MECANICOS ---
+1. Registrar mecanico
+2. Buscar mecanico por ID
+3. Listar mecanicos
+4. Dar de baja mecanico
+0. Volver
+Seleccione una opcion (0-4): 
+ID   NOMBRE                  CEDULA        ESPECIALIDAD  ESTADO    ABIERTAS
+---------------------------------------------------------------------------
+1    Jose Perez              V-9876543     FRENOS        ACTIVO    1
+2    Ana Villalobos          V-18222111    MOTOR         BAJA      0
+3    Luis Fuenmayor          V-16333444    ELECTRICIDAD  ACTIVO    0
+4    Carla Urdaneta          V-20444555    SUSPENSION    ACTIVO    0
+Total de mecanicos: 4
+
+--- MENU MECANICOS ---
+1. Registrar mecanico
+2. Buscar mecanico por ID
+3. Listar mecanicos
+4. Dar de baja mecanico
+0. Volver
+Seleccione una opcion (0-4): 
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): 
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- ABRIR ORDEN (Escriba CANCELAR para abortar) ---
+Placa del vehiculo: ID del mecanico: Kilometraje de ingreso: Descripcion de la falla: Confirma la apertura de la orden? (S/N): Orden #4 abierta para AB123CD con Jose Perez.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- AGREGAR REPUESTO A ORDEN ---
+Numero de orden: Codigo del repuesto: Cantidad: 2 x 'Pastillas delanteras' agregado(s) a la orden #4.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- AGREGAR REPUESTO A ORDEN ---
+Numero de orden: Codigo del repuesto: Cantidad: 2 x 'Disco de freno' agregado(s) a la orden #4.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- AGREGAR REPUESTO A ORDEN ---
+Numero de orden: Codigo del repuesto: Cantidad: 4 x 'Aceite 20W50 (litro)' agregado(s) a la orden #4.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- AGREGAR REPUESTO A ORDEN ---
+Numero de orden: Codigo del repuesto: Cantidad: 1 x 'Filtro de aceite' agregado(s) a la orden #4.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- CERRAR ORDEN ---
+Numero de orden: Costo de mano de obra: Confirma el cierre de la orden #4? (S/N): Orden #4 cerrada. Total: 228.00
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- ABRIR ORDEN (Escriba CANCELAR para abortar) ---
+Placa del vehiculo: ID del mecanico: Kilometraje de ingreso: Descripcion de la falla: Confirma la apertura de la orden? (S/N): Orden #5 abierta para XY987ZW con Luis Fuenmayor.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- AGREGAR REPUESTO A ORDEN ---
+Numero de orden: Codigo del repuesto: Cantidad: 1 x 'Bateria 12V' agregado(s) a la orden #5.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- AGREGAR REPUESTO A ORDEN ---
+Numero de orden: Codigo del repuesto: Cantidad: 2 x 'Bombillo H4' agregado(s) a la orden #5.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- AGREGAR REPUESTO A ORDEN ---
+Numero de orden: Codigo del repuesto: Cantidad: 4 x 'Bujia iridium' agregado(s) a la orden #5.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- AGREGAR REPUESTO A ORDEN ---
+Numero de orden: Codigo del repuesto: Cantidad: 1 x 'Filtro de aire' agregado(s) a la orden #5.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- CERRAR ORDEN ---
+Numero de orden: Costo de mano de obra: Confirma el cierre de la orden #5? (S/N): Orden #5 cerrada. Total: 271.50
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- ABRIR ORDEN (Escriba CANCELAR para abortar) ---
+Placa del vehiculo: ID del mecanico: Kilometraje de ingreso: Descripcion de la falla: Confirma la apertura de la orden? (S/N): Orden #6 abierta para DF234GH con Luis Fuenmayor.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- AGREGAR REPUESTO A ORDEN ---
+Numero de orden: Codigo del repuesto: Cantidad: 2 x 'Amortiguador delantero' agregado(s) a la orden #6.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- AGREGAR REPUESTO A ORDEN ---
+Numero de orden: Codigo del repuesto: Cantidad: 2 x 'Terminal de direccion' agregado(s) a la orden #6.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- AGREGAR REPUESTO A ORDEN ---
+Numero de orden: Codigo del repuesto: Cantidad: 2 x 'Rodamiento de rueda' agregado(s) a la orden #6.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- AGREGAR REPUESTO A ORDEN ---
+Numero de orden: Codigo del repuesto: Cantidad: 4 x 'Aceite 20W50 (litro)' agregado(s) a la orden #6.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- CERRAR ORDEN ---
+Numero de orden: Costo de mano de obra: Confirma el cierre de la orden #6? (S/N): Orden #6 cerrada. Total: 394.00
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- ABRIR ORDEN (Escriba CANCELAR para abortar) ---
+Placa del vehiculo: ID del mecanico: Kilometraje de ingreso: Descripcion de la falla: Confirma la apertura de la orden? (S/N): Orden #7 abierta para GH567JK con Carla Urdaneta.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- AGREGAR REPUESTO A ORDEN ---
+Numero de orden: Codigo del repuesto: Cantidad: 1 x 'Amortiguador delantero' agregado(s) a la orden #7.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- AGREGAR REPUESTO A ORDEN ---
+Numero de orden: Codigo del repuesto: Cantidad: 1 x 'Rodamiento de rueda' agregado(s) a la orden #7.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- ABRIR ORDEN (Escriba CANCELAR para abortar) ---
+Placa del vehiculo: ID del mecanico: Kilometraje de ingreso: Descripcion de la falla: Confirma la apertura de la orden? (S/N): Orden #8 abierta para MN890PQ con Jose Perez.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- AGREGAR REPUESTO A ORDEN ---
+Numero de orden: Codigo del repuesto: Cantidad: 1 x 'Correa de tiempo' agregado(s) a la orden #8.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- AGREGAR REPUESTO A ORDEN ---
+Numero de orden: Codigo del repuesto: Cantidad: 1 x 'Bomba de agua' agregado(s) a la orden #8.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- ANULAR ORDEN ---
+Numero de orden: Seguro que desea anular la orden #8 (ABIERTA)? (S/N): Orden #8 anulada. Las unidades de sus 2 linea(s) volvieron al inventario.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- ABRIR ORDEN (Escriba CANCELAR para abortar) ---
+Placa del vehiculo: ID del mecanico: Kilometraje de ingreso: Descripcion de la falla: Confirma la apertura de la orden? (S/N): Orden #9 abierta para TU654VW con Luis Fuenmayor.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- AGREGAR REPUESTO A ORDEN ---
+Numero de orden: Codigo del repuesto: Cantidad: 4 x 'Aceite 20W50 (litro)' agregado(s) a la orden #9.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- AGREGAR REPUESTO A ORDEN ---
+Numero de orden: Codigo del repuesto: Cantidad: 1 x 'Filtro de aceite' agregado(s) a la orden #9.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- AGREGAR REPUESTO A ORDEN ---
+Numero de orden: Codigo del repuesto: Cantidad: 1 x 'Filtro de gasolina' agregado(s) a la orden #9.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- CERRAR ORDEN ---
+Numero de orden: Costo de mano de obra: Confirma el cierre de la orden #9? (S/N): Orden #9 cerrada. Total: 89.00
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- ABRIR ORDEN (Escriba CANCELAR para abortar) ---
+Placa del vehiculo: ID del mecanico: Kilometraje de ingreso: Descripcion de la falla: Confirma la apertura de la orden? (S/N): Orden #10 abierta para WX789YZ con Carla Urdaneta.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- AGREGAR REPUESTO A ORDEN ---
+Numero de orden: Codigo del repuesto: Cantidad: 2 x 'Pastillas delanteras' agregado(s) a la orden #10.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- AGREGAR REPUESTO A ORDEN ---
+Numero de orden: Codigo del repuesto: Cantidad: 1 x 'Liquido de frenos DOT4' agregado(s) a la orden #10.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- AGREGAR REPUESTO A ORDEN ---
+Numero de orden: Codigo del repuesto: Cantidad: 2 x 'Disco de freno' agregado(s) a la orden #10.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- CERRAR ORDEN ---
+Numero de orden: Costo de mano de obra: Confirma el cierre de la orden #10? (S/N): Orden #10 cerrada. Total: 197.50
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- LISTAR ORDENES ---
+1. Todas
+2. Por estado
+3. Historial de un vehiculo
+Seleccione una opcion (1-3): 
+ORDEN  APERTURA    VEHICULO                    MECANICO                ESTADO         TOTAL
+-------------------------------------------------------------------------------------------
+#1     2026-11-14  AB123CD - Toyota Corolla    Jose Perez              ANULADA       208.00
+#2     2026-11-14  XY987ZW - Chevrolet Aveo    Ana Villalobos (BAJA)   CERRADA       554.00
+#3     2026-11-14  PQ321RS - Nissan Sentra     Jose Perez              ABIERTA         0.00
+#4     2026-11-14  AB123CD - Toyota Corolla    Jose Perez              CERRADA       228.00
+#5     2026-11-14  XY987ZW - Chevrolet Aveo    Luis Fuenmayor          CERRADA       271.50
+#6     2026-11-14  DF234GH - Hyundai Accent    Luis Fuenmayor          CERRADA       394.00
+#7     2026-11-14  GH567JK - Kia Rio           Carla Urdaneta          ABIERTA       115.00
+#8     2026-11-14  MN890PQ - Renault Logan     Jose Perez              ANULADA        95.00
+#9     2026-11-14  TU654VW - Mazda 3           Luis Fuenmayor          CERRADA        89.00
+#10    2026-11-14  WX789YZ - Honda Civic       Carla Urdaneta          CERRADA       197.50
+Total de ordenes: 10
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): 
+--- REPORTES ---
+1. Historial de vehiculo
+2. Repuestos mas utilizados
+3. Facturacion por mecanico
+0. Volver
+Seleccione una opcion (0-3): Placa del vehiculo: 
+=== HISTORIAL DE AB123CD ===
+Toyota Corolla 2015 | 46000 km | Dueno: Maria Gonzalez
+
+ORDEN  APERTURA    VEHICULO                    MECANICO                ESTADO         TOTAL
+-------------------------------------------------------------------------------------------
+#1     2026-11-14  AB123CD - Toyota Corolla    Jose Perez              ANULADA       208.00
+#4     2026-11-14  AB123CD - Toyota Corolla    Jose Perez              CERRADA       228.00
+Total facturado (solo ordenes CERRADAS): 228.00
+
+--- REPORTES ---
+1. Historial de vehiculo
+2. Repuestos mas utilizados
+3. Facturacion por mecanico
+0. Volver
+Seleccione una opcion (0-3): 
+=== REPUESTOS MAS UTILIZADOS (ordenes CERRADAS) ===
+#    CODIGO      NOMBRE                           UNIDADES
+----------------------------------------------------------
+1    ACE-600     Aceite 20W50 (litro)                   16
+2    FRN-001     Pastillas delanteras                    5
+3    BUJ-200     Bujia iridium                           5
+4    DIS-900     Disco de freno                          5
+5    FIL-100     Filtro de aceite                        3
+6    AMO-300     Amortiguador delantero                  3
+7    TER-950     Terminal de direccion                   3
+8    LAM-990     Bombillo H4                             3
+9    FRN-014     Liquido de frenos DOT4                  2
+10   BAT-500     Bateria 12V                             2
+
+--- REPORTES ---
+1. Historial de vehiculo
+2. Repuestos mas utilizados
+3. Facturacion por mecanico
+0. Volver
+Seleccione una opcion (0-3): 
+=== FACTURACION POR MECANICO (ordenes CERRADAS) ===
++------------------------------+---------+-----------+-----------+
+| Mecanico                     | Ordenes | M. obra   | Repuestos |
++------------------------------+---------+-----------+-----------+
+| Jose Perez                   |       1 |     50.00 |    178.00 |
+| Ana Villalobos (BAJA)        |       1 |     60.00 |    494.00 |
+| Luis Fuenmayor               |       3 |    200.00 |    554.50 |
+| Carla Urdaneta               |       1 |     45.00 |    152.50 |
++------------------------------+---------+-----------+-----------+
+
+--- REPORTES ---
+1. Historial de vehiculo
+2. Repuestos mas utilizados
+3. Facturacion por mecanico
+0. Volver
+Seleccione una opcion (0-3): 
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): 
+--- MANTENIMIENTO ---
+1. Verificar integridad
+2. Crear backup
+0. Volver
+Seleccione una opcion (0-2): 
++-------------------------------------------------------+
+|            REPORTE DE INTEGRIDAD DEL SISTEMA          |
++-------------------------------------------------------+
+| Vehiculos verificados : 9                             |
+| Mecanicos verificados : 4                             |
+| Repuestos verificados : 16                            |
+| Ordenes verificadas   : 10                            |
+|                                                       |
+| Problemas encontrados : 0                             |
+| Estado: SISTEMA INTEGRO                               |
++-------------------------------------------------------+
+
+--- MANTENIMIENTO ---
+1. Verificar integridad
+2. Crear backup
+0. Volver
+Seleccione una opcion (0-2): 
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): Desea salir del programa? (S/N): Hasta luego.

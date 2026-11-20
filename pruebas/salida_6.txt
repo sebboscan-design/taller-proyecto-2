@@ -1,0 +1,220 @@
+
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): 
+--- MENU MECANICOS ---
+1. Registrar mecanico
+2. Buscar mecanico por ID
+3. Listar mecanicos
+4. Dar de baja mecanico
+0. Volver
+Seleccione una opcion (0-4): 
+--- DAR DE BAJA MECANICO ---
+ID del mecanico: Seguro que desea dar de baja a 'Ana Villalobos'? (S/N): ERROR: El mecanico 'Ana Villalobos' tiene 1 orden(es) ABIERTA(S) y no puede darse de baja.
+
+--- MENU MECANICOS ---
+1. Registrar mecanico
+2. Buscar mecanico por ID
+3. Listar mecanicos
+4. Dar de baja mecanico
+0. Volver
+Seleccione una opcion (0-4): 
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): 
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- CERRAR ORDEN ---
+Numero de orden: Costo de mano de obra: Confirma el cierre de la orden #2? (S/N): Orden #2 cerrada. Total: 554.00
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): 
+--- MENU MECANICOS ---
+1. Registrar mecanico
+2. Buscar mecanico por ID
+3. Listar mecanicos
+4. Dar de baja mecanico
+0. Volver
+Seleccione una opcion (0-4): 
+--- DAR DE BAJA MECANICO ---
+ID del mecanico: Seguro que desea dar de baja a 'Ana Villalobos'? (S/N): Mecanico 'Ana Villalobos' dado de baja. Sus ordenes cerradas y anuladas siguen en el historial.
+
+--- MENU MECANICOS ---
+1. Registrar mecanico
+2. Buscar mecanico por ID
+3. Listar mecanicos
+4. Dar de baja mecanico
+0. Volver
+Seleccione una opcion (0-4): 
+ID   NOMBRE                  CEDULA        ESPECIALIDAD  ESTADO    ABIERTAS
+---------------------------------------------------------------------------
+1    Jose Perez              V-9876543     FRENOS        ACTIVO    0
+2    Ana Villalobos          V-18222111    MOTOR         BAJA      0
+Total de mecanicos: 2
+
+--- MENU MECANICOS ---
+1. Registrar mecanico
+2. Buscar mecanico por ID
+3. Listar mecanicos
+4. Dar de baja mecanico
+0. Volver
+Seleccione una opcion (0-4): 
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): 
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- LISTAR ORDENES ---
+1. Todas
+2. Por estado
+3. Historial de un vehiculo
+Seleccione una opcion (1-3): 1. ABIERTA
+2. CERRADA
+3. ANULADA
+Estado (1-3): 
+ORDEN  APERTURA    VEHICULO                    MECANICO                ESTADO         TOTAL
+-------------------------------------------------------------------------------------------
+#2     2026-11-14  XY987ZW - Chevrolet Aveo    Ana Villalobos (BAJA)   CERRADA       554.00
+Total de ordenes: 1
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): Numero de orden: 
++----------------------------------------------------------------+
+  ORDEN DE SERVICIO #2
++----------------------------------------------------------------+
+  Estado   : CERRADA           Apertura: 2026-11-14
+                               Cierre  : 2026-11-14
+  Vehiculo : XY987ZW - Chevrolet Aveo 2009 (128500 km)
+  Dueno    : Maria Gonzalez
+  Mecanico : Ana Villalobos (BAJA)
+  Falla    : Mantenimiento mayor
++----------+---------------------------+------+---------+--------+
+  Codigo    Repuesto                     Cant    P.Unit    Total
++----------+---------------------------+------+---------+--------+
+  FRN-001   Pastillas delanteras            1     25.00    25.00
+  FRN-014   Liquido de frenos DOT4          1     12.50    12.50
+  FIL-100   Filtro de aceite                1      8.00     8.00
+  BUJ-200   Bujia iridium                   1     15.00    15.00
+  AMO-300   Amortiguador delantero          1     85.00    85.00
+  COR-410   Correa de tiempo                1     40.00    40.00
+  BAT-500   Bateria 12V                     1    120.00   120.00
+  FIL-110   Filtro de aire                  1      9.50     9.50
+  FIL-120   Filtro de gasolina              1     11.00    11.00
+  ACE-600   Aceite 20W50 (litro)            4      7.50    30.00
+  REF-700   Refrigerante                    1     10.00    10.00
+  BOM-800   Bomba de agua                   1     55.00    55.00
+  DIS-900   Disco de freno                  1     45.00    45.00
+  TER-950   Terminal de direccion           1     22.00    22.00
+  LAM-990   Bombillo H4                     1      6.00     6.00
++----------+---------------------------+------+---------+--------+
+                                              Repuestos   494.00
+                                           Mano de obra    60.00
+                                                  TOTAL   554.00
++----------------------------------------------------------------+
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
+--- ABRIR ORDEN (Escriba CANCELAR para abortar) ---
+Placa del vehiculo: ID del mecanico: Kilometraje de ingreso: Descripcion de la falla: Confirma la apertura de la orden? (S/N): ERROR: El mecanico 'Ana Villalobos (BAJA)' esta dado de baja y no puede recibir ordenes nuevas.
+
+--- MENU ORDENES DE SERVICIO ---
+1. Abrir orden
+2. Agregar repuesto a orden
+3. Quitar repuesto de orden
+4. Cerrar orden
+5. Anular orden
+6. Ver detalle de orden
+7. Listar ordenes
+0. Volver
+Seleccione una opcion (0-7): 
++-------------------------------------------+
+  SISTEMA DE GESTION DE TALLER
+  Taller: Autoservicio El Lago
++-------------------------------------------+
+1. Gestion de Vehiculos
+2. Gestion de Mecanicos
+3. Inventario de Repuestos
+4. Ordenes de Servicio
+5. Reportes
+6. Mantenimiento
+0. Salir
+Seleccione una opcion (0-6): Desea salir del programa? (S/N): Hasta luego.

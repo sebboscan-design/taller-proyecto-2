@@ -1,0 +1,45 @@
+1
+1
+DF234GH
+Hyundai
+Accent
+2016
+60000
+Luis Mendoza
+V-15444333
+0412-9998877
+s
+1
+GH567JK
+Kia
+Rio
+2019
+25000
+Pedro Salas
+V-21555666
+0416-3334455
+s
+1
+MN890PQ
+Renault
+Logan
+2014
+90000
+Rosa Paz
+V-11222333
+0414-7778899
+s
+5
+4
+JK456LM
+s
+2
+1
+5
+2
+1
+3
+5
+0
+0
+s
